@@ -1,0 +1,23 @@
+.footer {
+	background-color: #0f0f0f;
+	color: #fff;
+	padding-block: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.footer-section {
+		p {
+			opacity: 0.9;
+			margin-bottom: 0.5em;
+		}
+		p.title {
+			opacity: 1;
+			font-size: 1.1em;
+			font-weight: bold;
+		}
+		a {
+			color: white;
+		}
+	}
+}
